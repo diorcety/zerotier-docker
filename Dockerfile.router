@@ -1,5 +1,5 @@
-ARG FROM_IMAGE=zyclonite/zerotier
-ARG FROM_VERSION=latest
+ARG FROM_IMAGE=ghcr.io/diorcety/zerotier
+ARG FROM_VERSION=1.16.0
 
 FROM ${FROM_IMAGE}:${FROM_VERSION}
 
